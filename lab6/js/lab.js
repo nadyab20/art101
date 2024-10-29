@@ -2,8 +2,10 @@
 // Author: Nadya Boguslavsky <nbogusla@ucsc.edu> 
 // Date: October 24, 2024
 
+// Define Variables
 myTransport = ["car", "bus", "bike"];  
 
+// Create an Object for my main ride 
  myMainRide = { 
 	make: "Acura",
 	model: "RDX",
@@ -14,6 +16,7 @@ myTransport = ["car", "bus", "bike"];
 	}
 }
 
+// output
 document.writeln("Kinds of Transportation I use:", myTransport, </br>); 
 document.writeln("My Main Ride: <pre>", 
   JSON.stringify(myMainRide, null, '\t'), "</pre>");
